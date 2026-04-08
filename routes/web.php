@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
 
+//welcome route
 Route::get('/', function () {
     return view('welcome');
 });

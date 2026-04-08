@@ -14,4 +14,7 @@ class SubChapter extends Model
     public function contents(){
         return $this ->hasMany(Content::class, 'sub_chapters_id');
     }
+    public function quiz(){
+        return $this->hasOne(Quiz::class);
+    }
 }
