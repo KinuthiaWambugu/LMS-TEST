@@ -24,6 +24,7 @@ class DatabaseSeeder extends Seeder
 
         //seed data on course
         $this->call(CourseSeeder::class);
-        $this->call(EnrollmentSeeder::class);
+        //$this->call(EnrollmentSeeder::class);
+        $this->call(QuizSeeder::class);
     }
 }
